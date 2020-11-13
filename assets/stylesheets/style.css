@@ -1,0 +1,49 @@
+
+body {
+  width: 85%;
+  margin: auto;
+}
+
+nav {
+  width: 65%;
+}
+
+nav ul, nav .logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav .logo img {
+  width: 45px;
+  height: 30px;
+}
+
+nav .logo h3 {
+  font-size: 1.8rem; 
+  margin-left: 5px;
+  font-family: 'Merriweather', serif;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+nav ul {
+  padding: 0;
+}
+
+
+
