@@ -17,10 +17,21 @@ nav li.home {
   /* background: -webkit-radial-gradient(#01FDC1, rgb(83, 83, 136)); */
 }
 
-nav li.home:hover {
+/* nav li.home:hover {
   
 }
 
+nav li.about:hover {
+  
+}
+
+nav li.portfolio:hover {
+  
+}
+
+nav li.contact:hover {
+  
+} */
 
 li.home a {
   color: #e4e4e4;
@@ -69,12 +80,9 @@ main .me {
   align-items: center;
 }
 
-main .me h1 {
-  margin: 2rem 0;
-}
-
 .me h1 {
   font-size: 2.5rem;
+  margin: 2rem 0;
 }
 
 main .me h5 {
@@ -91,4 +99,16 @@ main .reach a {
   margin-right: .7rem;
 }
 
+#about {
+  display: flex;
+  margin: 4rem 0;
+}
 
+#about img {
+  width: 300px;
+  height: 250px;
+}
+
+#about div {
+  margin: 5rem;
+}
