@@ -1,11 +1,29 @@
 
 body {
-  width: 85%;
+  width: 80%;
   margin: auto;
+  background-color: #e4e4e4;
 }
 
 nav {
   width: 65%;
+}
+
+nav li.home {
+  /* background-color: aqua; */
+  padding: 5px 8px;
+  background: -webkit-linear-gradient(#01FDC1, rgb(83, 83, 136));
+  border-radius: 5px;
+  /* background: -webkit-radial-gradient(#01FDC1, rgb(83, 83, 136)); */
+}
+
+nav li.home:hover {
+  
+}
+
+
+li.home a {
+  color: #e4e4e4;
 }
 
 nav ul, nav .logo {
@@ -45,5 +63,32 @@ nav ul {
   padding: 0;
 }
 
+main .me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .me h1 {
+  margin: 2rem 0;
+}
+
+.me h1 {
+  font-size: 2.5rem;
+}
+
+main .me h5 {
+  font-size: 1.3rem;
+}
+
+main .reach {
+  margin: 2.5rem 0;
+  font-size: 1.5rem;
+}
+
+main .reach a {
+  color: #747474;
+  margin-right: .7rem;
+}
 
 
